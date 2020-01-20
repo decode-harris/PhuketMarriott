@@ -88,7 +88,7 @@ h5 {
     === table of contents ===
 
     1. [ section layout ]
-        a. stickynav
+        a. navigation
         b. header
         c. content
         d. banner
@@ -100,8 +100,14 @@ h5 {
     
 
     2. [ element layout ]
+        a. navigation
+        b. header
+        c. content
+        d. banner
+        e. subcontent
+        f. footer
 
-    4. [ media queries ]
+    3. [ media queries ]
         a. laptop 1366 x 789
         b. tablet 1000 x 900
         c. mobile 850 x  
