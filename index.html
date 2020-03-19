@@ -4,274 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Phuket Marriott Resort & Spa | Merlin Beach</title>
+    <title>Home Page | Phuket Marriott</title>
+
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/4dff4a55ad.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
-</head>
-<body id="body">
-    <!-- navigation -->
-    <section class="navigation">
-        <!-- sticky nav -->
-        <nav class="stickynav">
-            <!-- elmnts -->
-            <div class="elmnts">
-                <button id="header-navBtn" onclick="activate_nav()">
-                    <i class="fas fa-bars" id="nav_open_icon"></i>
-                </button>
-            </div>
-            <div class="elmnts">
-                <a href="booking.html" class="mobile_hidden">book now</a>
-                <a href="features.html" class="mobile_hidden">features</a>
-                <a href="services.html" class="mobile_hidden">services</a>
-                <a href="contact.html" class="mobile_hidden">contact</a>
-            </div>
-            <!-- elmnts -->
-        </nav>
-        <!-- sticky nav -->
-    </section>
-    <!-- navigation -->
 
+</head>
+<body class="body" id="body">
     <!-- header -->
     <header class="header">
-        <!-- header elmnts -->
+        <!-- elmnts -->
+        <div class="elmnts">
+            <!-- btn nav -->
+            <button class="btn_nav" id="btn_nav">
+                <i class="fas fa-bars" id="nav_open_icon"></i>
+            </button>
+            <!-- btn nav -->
+        </div>
         <div class="elmnts">
             <h1>Phuket Marriott Resort & Spa</h1>
-            <p>Merlin Beach, Patong Region, Phuket Thailand</p>
         </div>
         <div class="elmnts">
-            <a href="showcase.html">
-                View Rooms
-            </a>
-        </div>
-        <!-- header elmnts -->
-    </header>
-    <!-- header -->
-
-    <!-- modal [ sidebar ] -->
-    <aside class="sidebar" id="sidebar" style="display:none">
-        <!-- sidebar header -->
-        <header>
-            <!-- sidebar header elmnts -->
-            <div class="elmnts">
-                <h3>Phuket Marriott Resort & Spa</h3>
-                <p>Merlin Beach, Patong Region, Phuket Thailand</p>
-            </div>
-            <div class="elmnts">
-                <button id="closeNavBtn" onclick="disable_nav()">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <!-- sidebar header elmnts -->
-        </header>
-        <!-- sidebar header -->
-
-        <!-- sidebar nav -->
-        <nav class="nav">
-            <a href="#">Home</a>
-            <a href="#">Resort Info</a>
-            <a href="#">Facilities</a>
-            <a href="#">Services</a>
-            <a href="#">Book</a>
-            <a href="#">Contact</a>
-        </nav>
-        <!-- sidebar nav -->
-
-        <!-- sidebar footer -->
-        <footer>
-            <!-- sidebar footer text -->
+            <!-- hide on mobile -->
             <p>99 Muen-Ngoen Road, Tri-Trang Beach, Patong, Phuket  83150 Thailand</p>
             <p>+66 76 335 300</p>
-            <!-- sidebar footer text -->
-        </footer>
-        <!-- sidebar footer -->
-    </aside>
-    <!-- modal [ sidebar ] -->
+            <!-- hide on mobile -->
+        </div>
+        <div class="header_banner"></div>
+    </header>
+    <!-- header -->
     
-    <!-- main content -->
-    <main class="content">
-        <!-- elmnts -->
-        <div class="elmnts">
-            <h2>Welcome From Phuket Marriott</h2>
-            <p>
-                Plan a luxury escape to the extraordinary Phuket Marriott Resort & Spa,
-                Merlin Beach. This 5-star hotel welcomes families, couples and business
-                travellers to a beach-side retreat.
-            
-                Experience Thailand in amazement with private access to Tri-Tang
-                Beach and only minutes from the entertainment hub of Patong Beach
-                and Phuket Old Town.
+    <!-- nav -->
+    <nav class="nav" style="display:none">    
+    
+        <a href="index.html" class="page_link">home</a>
+        <a href="book.html" class="page_link">book</a>
+        <a href="amen.html" class="page_link">amenities</a>
+        <a href="room.html" class="page_link">rooms & suites</a>
+        
+
+    </nav>
+    <!-- nav -->
+
+    <!-- container -->
+    <main class="container">
+        <h2>Welcome From Phuket Marriott</h2>
+        <!-- content -->
+        <article class="content">
+            <div class="elmnts">
+                <h3>Marriott Services</h3>
+                <p>
+                    Plan a luxury escape to the extraordinary Phuket Marriott Resort & Spa,
+                    Merlin Beach. This 5-star hotel welcomes families, couples and business
+                    travellers to a beach-side retreat.
                 </p>
-        </div>
-        <div class="elmnts">
-            <!-- main beach img -->
-        </div>
-        <div class="elmnts mobile_hidden">
-            <!-- main room img -->
-        </div>
-        <div class="elmnts">
-            <h2>World Class Suites</h2>
+            </div>
+            <div class="elmnts">
+                <div class="box">
+                    <img src="img/1.jpg" alt="phuket 1">
+                </div>
+            </div>
+        </article>
+
+        <article class="content">
+            <div class="elmnts">
+                <h2>World Class Suites</h2>
             <p>
                 Your luxurious guestroom is just steps from the waves. Open your
-                window to the stunning panoramic view of the Andaman Sea.
-                Soak up the views of the swaying palm trees, the blue and green water and the
-                calm white sands from your private beachfront guest room balcony.
-                Relax after a long day of exploration with world class luxurious services
-                and facilities at your disposal.
+                window to the stunning panoramic view of the Andaman Sea. Private balcony
+                provides views of swaying palm trees, blue green water and the
+                calm white sands.
             </p>
-            <a href="rooms.html">Find Out More</a>
-        </div>
-        <div class="elmnts desktop_hidden">
-            <!-- main room img -->
-        </div>
-        <div class="elmnts">
-            <h2>Private Beach Access</h2>
-            <p>
-                Tri Trang Beach is a quiet, secluded place which is ideal for 
-                dedicated sun-lovers. The 500-metre north-facing beach is snuggled
-                into the headland just to the south of Patong, making it conveniently
-                close to the popular resort town while still being far enough removed
-                to be a quiet safe haven of tranquillity.
-            </p>
-            <a href="facilities.html">Find Out More</a>
-        </div>
-        <div class="elmnts">
-            <!-- main room -->
-        </div>
-        <div class="elmnts">
-            <!-- welcome img -->
-        </div>
-        <!-- elmnts -->
+            </div>
+            <div class="elmnts">
+                <div class="box">
+                    <img src="img/2.jpg" alt="phuket 2">
+                </div>
+            </div>
+        </article>
+
+        <article class="content">
+            <div class="elmnts">
+                <h2>Private Beach Access</h2>
+                <p>
+                    Tri Trang Beach is a quiet, secluded place which is ideal for 
+                    dedicated sun-lovers. The 500-metre north-facing beach is snuggled
+                    into the headland just to the south of Patong.
+                </p>
+            </div>
+            <div class="elmnts">
+                <div class="box">
+                    <img src="img/3.jpg" alt="phuket 3">
+                </div>
+            </div>
+        </article>
+        <!-- content -->
+
+
+
     </main>
-    <!-- main content -->
-    
-    <!-- banner content -->
-    <section class="banner">
-        <!-- elmnts -->
-        <div class="elmnts">
-            <h3>Resort Offerings</h3>
-            <p>
-                Explore the many offerings of the Phuket Marriott Resort. Induldge
-                with our spa & massage facilities, relax on the private beach, 
-                or enjoy a drink at our swimming bar.
-            </p>
-            <p>
-                High class state of the art facilities and recently renovated
-                resort grounds provide a serenity vibe in a tropical setting.
-            </p>
-        </div>
-        </div>
-        <div class="elmnts">
-            <a href="features.html">
-                <h4>Features</h4>
-            </a>
-        </div>
-        <div class="elmnts">
-            <a href="rooms.html">
-                <h4>Rooms</h4>
-            </a>
-        </div>
-        <div class="elmnts">
-            <a href="facilities.html">
-                <h4>Facilities</h4>
-            </a>
-        </div>
-        <div class="elmnts">
-            <a href="gallery.html">
-                <h4>Resort</h4>
-            </a>
-        </div>
-        <!-- elmnts -->
-    </section>
-    <!-- banner content -->
+    <!-- container -->
 
-    <!-- subcontent title -->
-    
-    <!-- sub content -->
-    <section class="subcontent">
-        <!-- elmnts -->
-        <div class="elmnts">
-            <h3>Discover Patong</h3>
-            <p>
-                Patong is a beach resort town on the west coast of Phuket Island,
-                facing the Andaman Sea in the southwest of Thailand. Its sandy,
-                crescent beach is lined with cafes, restaurants and bars.
-            </p>
-            <p>
-                The famously raucous nightlife scene features beer bars, go-go bars,
-                nightclubs, massage parlors and cabarets that overflow into the street
-                along neon-lit Bangla Road.
-            </p>
-        </div>
-        <div class="elmnts">
-            <h4>Things to do</h4>
-            <!-- show on hover -->
-            <span>
-                Phuket Patong enables its visitors to explore multiple 
-                pieces of history, wildlife, beaches, shows & islands
-                all within a couple of hours.
-                <a href="http://www.phuket.com/island/10mustsee.htm">
-                    Explore
-                </a>
-            </span>
-            <!-- show on hover -->
-        </div>
-        <div class="elmnts">
-            <h4>Shops & Markets</h4>
-            <!-- show on hover -->
-            <span>
-                Phuket offers shoppers a variety of options, from street vendors along
-                the alley ways and beach fronts, to high end shopping centers offering
-                internatial brands at low prices.
+    <!-- container -->
+    <section class="container">
+        <h2>Resort Offerings</h2>
+        <!-- subcontent -->
+        <article class="content">
+            <div class="elmnts">
+                <h3>Rooms & Suites</h3>
+                <p>
+                    High class state of the art facilities and recently renovated
+                    resort grounds provide a serenity vibe in a tropical setting.
+                </p>
+            </div>
+            <div class="elmnts">
+                <div class="box">
+                    <img src="img/4.jpg" alt="phuket 4">
+                </div>
+            </div>
+        </article>
 
-                <a href="http://www.phuket.com/shopping/top10-phuket-shopping.htm">
-                    Shop Now
-                </a>
-            </span>
-            <!-- show on hover -->
-            
-        </div>
-        <div class="elmnts">
-            <!-- show on hover -->
-            <h4>Nightlife & Parties</h4>
-            <span>
-                Party from sunset to sunrise, or vice versa! Bangla Road, a closed
-                off street becomes the party capital of Phuket, Patong. Providing
-                a memorable night out with a bunch of pubs, clubs and go go bars. 
-                <a href="http://www.phuket.com/nightlife/top10-phuket-nightlife.htm">
-                Find Events</a>
-            </span>
-            <!-- show on hover -->
-        </div>
-        <div class="elmnts">
-            <h4>Tours & Adventures</h4>
-            <!-- show on hover -->
-            <span>
-                Choose from a wide range of activities catering for
-                families, relaxation tours, group activities, private
-                adventures and much more...
-                <a href="http://www.phuket.com/tours/10mustdo.htm">
-                    Book Now
-                </a>
-            </span>
-            <!-- show on hover -->
-        </div>
-        <div class="elmnts">
-            <h4>Beaches & Islands</h4>
-            <!-- show on hover -->
-            <span>
-                So many beautiful beaches are sprinkled around Phukets coastal areas.
-                Private, public, party & hotel beaches are available a short walk or 
-                drive from central Phuket.
-                <a href="http://www.phuket.com/island/beaches_patong.htm">
-                View Beaches
-                </a>
-            </span>
-            <!-- show on hover -->
-        </div>
-        <!-- elmnts -->
+        <article class="content">
+            <div class="elmnts">
+                <h3>Amenities</h3>
+                <p>
+                    Explore the many offerings of the Phuket Marriott Resort. Induldge
+                    with our spa & massage facilities, relax on the private beach, 
+                    or enjoy a drink at our swimming bar.
+                </p>
+            </div>
+            <div class="elmnts">
+                <div class="box">
+                    <img src="img/5.jpg" alt="phuket 5">
+                </div>
+                
+            </div>
+        </article>
+
+        <article class="content">
+            <div class="elmnts">
+                <h3>Discover Patong</h3>
+                <p>
+                    Patong is a beach resort town on the west coast of Phuket Island,
+                    facing the Andaman Sea in the southwest of Thailand. Its sandy,
+                    crescent beach is lined with cafes, restaurants and bars.
+                </p>
+            </div>
+            <div class="elmnts">
+                <div class="box">
+                    <img src="img/6.jpg" alt="phuket 6">
+                </div>
+            </div>
+        </article>
+        <!-- subcontent -->
+
     </section>
-    <!-- sub content -->
+    <!-- container -->
+    
 
     <!-- footer -->
     <footer class="footer">
@@ -279,15 +169,15 @@
         <div class="elmnts">
             <h5>Related & Sponsored Links</h5>
             <!-- related list -->
-            <ul class="relatedlist">
+            <ul class="footer_nav">
                 <li>
-                    <a href="#">View Phuket Marriot Resort Facilities & Features</a>
+                    <a href="#">Things To Do Phuket</a>
                 </li>
                 <li>
-                    <a href="#">View Phuket Marriot Resort Rooms & Suites</a>
+                    <a href="#">Shopping & Nightlife</a>
                 </li>
                 <li>
-                    <a href="#">View Phuket Marriot Resort Activities & Services</a>
+                    <a href="#">Tours & Sights</a>
                 </li>
             </ul>
             <!-- related list -->
@@ -295,69 +185,44 @@
         <div class="elmnts">
             <h5>Phuket Marriott &copy; Resort & Spa, Merlin Beach</h5>
             <!-- navigation list -->
-            <ul class="navigationlist">
+            <ul class="footer_nav">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
+                
                 <li>
-                    <a href="info.html">Resort Info</a>
+                    <a href="book.html">booking</a>                    
+                </li>
+                
+                <li>
+                    <a href="room.html">rooms</a>                    
                 </li>
                 <li>
-                    <a href="facilities.html">Facilities</a>                    
+                    <a href="amen.html">rooms</a>
                 </li>
-                <li>
-                    <a href="services.html">Services</a>                    
-                </li>
-                <li>
-                    <a href="booking.html">Booking</a>                    
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>                    
-                </li>
+                
             </ul>
             <!-- navigation list -->
         </div>
         <div class="elmnts">
             <p>
-                &copy; 1996 - 2020 | Marriott International. Inc. 
+                &copy; 1996 - 2020 | Marriott International. Inc. <i class="fas fa-globe-asia"></i> 
+                <br>
                 All rights reserved. Marriott Proprietary Information
             </p>
-            <p>
-                <i class="fas fa-globe-asia"></i>
-                English
-            </p>
-            <p>
+            
+            <p class="barcode">
                 PROD8 : FE4B404A-2443-5A83-8EDB-1D49B52969C7                    
             </p>
         </div>
         <!-- elmnts -->
     </footer>
     <!-- footer -->
+            
+
     
 </body>
 </html>
 
 
 
-<!-- unused components -->
-<!-- form modal -->
-<aside class="booking-form" style="display:none">
-    <!-- form -->
-    <form action="">
-        <label for="firstname">Firstname</label>
-        <input type="text" id="firstname" name="firstname">
-
-        <label for="lastname">Lastname</label>
-        <input type="text" id="lastname" name="lastname">
-
-        <label for="email">Email</label>
-        <!-- inputmode = email adds '@' and '.' elmnts to keyboard on mobile devices -->
-        <input type="email" name="email" id="email" inputmode="email">
-
-        <label for="token">Pincode</label>
-        <!-- inputmode = number adds only a '0 - 9' keyboard on mobile devices -->
-        <input type="number" name="token" id="token" inputmode="numeric">
-    </form>
-    <!-- form -->
-</aside>
-<!-- form modal -->
